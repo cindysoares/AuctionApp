@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.auctionapp.activity.ItemActivity"
+    tools:showIn="@layout/activity_item">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@android:drawable/picture_frame"
+            android:contentDescription="@string/itemImage"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/picturePath"
+            />
+
+        <TextView
+            android:id="@+id/item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/item_description" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_bid_now"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:id="@+id/bidButton"
+            android:layout_marginTop="16dp"
+            style="?android:textAppearanceSmall"
+            />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

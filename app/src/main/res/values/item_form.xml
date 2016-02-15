@@ -1,0 +1,10 @@
+<resources>
+    <string name="itemImage">Select an image</string>
+    <string name="itemName">Name</string>
+    <string name="itemDescription">Description</string>
+    <string name="startingBid">Starting bid</string>
+    <string name="bidIncrement">Bid increment</string>
+    <string name="startTime">Start time</string>
+    <string name="endTime">End time</string>
+    <string name="saveAuction">Save</string>
+</resources>
